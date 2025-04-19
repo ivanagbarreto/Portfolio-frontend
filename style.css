@@ -21,6 +21,7 @@ body{
     background-size: cover;
   }
   .container {
+    padding-top: 70px;
     height: 100vh;
     display: grid;
     place-items: center; 

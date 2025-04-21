@@ -6,7 +6,7 @@
     --envelope-cover:#e6cfa7;
     --shadow-color: rgb(0, 0, 0, 0.2);
     --text-color:#444;
-    --heart-color: #5D2A33;
+    --heart-color:  #091E5D;
 }
 body{
     margin: 0;
@@ -16,7 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/images/toile-bg.jpg);
+    background-image: url(/images/bluebg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -85,7 +85,7 @@ body{
   }
   .heart {
     position: absolute;
-    top: 50%;
+    top: 68%;
     left: 50%;
     width: 15px;
     height: 15px;

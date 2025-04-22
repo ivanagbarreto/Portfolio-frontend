@@ -3,7 +3,7 @@
     --bg-color: #5D2A33;
     --bg-envelope-color:#D9CCBB;
     --envelope-tab:#ecdeb8;
-    --envelope-cover:#e6cfa7;
+    --envelope-cover: #e6cfa7;
     --shadow-color: rgb(0, 0, 0, 0.2);
     --text-color:#444;
     --heart-color:  #091E5D;
@@ -28,13 +28,19 @@ body{
   }
   .container > .envelope-wrapper {
     background: var(--bg-envelope-color);
-    box-shadow: 0 0 40px var(--shadow-color);
+   /* box-shadow: 0 0 40px var(--shadow-color);*/
+    box-shadow: 
+    4px 4px 8px rgba(0, 0, 0, 0.3),  
+    -4px -4px 8px rgba(255, 255, 255, 0.20), 
+    inset 1px 1px 2px rgba(255, 255, 255, 0.2), 
+    inset -1px -1px 2px rgba(209, 217, 230, 0.15);
   
   }
   .envelope-wrapper > .envelope {
     position: relative;
     width: 300px;
     height: 230px;
+    
   }
   .envelope-wrapper > .envelope::before {
     content: "";
